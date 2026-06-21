@@ -1,0 +1,43 @@
+## .NET / Blazor
+
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docview
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.swp
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+nuget.config
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish output
+publish/
+**/Properties/PublishProfiles/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local config overrides
+appsettings.*.local.json
+secrets.json
